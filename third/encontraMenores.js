@@ -1,3 +1,4 @@
+//IMPORTAÇÃO do array.js e atribui a listalivros:
 const listaLivros = require('./array')
 
 function encontraMenores(pivo, array) {
@@ -10,6 +11,7 @@ function encontraMenores(pivo, array) {
     }
   }
 
+  //troca a posição do pivo e retorna um array novo
   trocaLugar(array, array.indexOf(pivo), menores)
   return array
 }
@@ -42,3 +44,5 @@ function divideNoPivo(array) {
 // console.log(encontraMenores(listaLivros[2], listaLivros));
 
 module.exports = trocaLugar;
+
+//Em resumo, o código implementa funções para encontrar os elementos menores de um array com base em um elemento de pivô e trocar de lugar os elementos do array
