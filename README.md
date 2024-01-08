@@ -1,37 +1,58 @@
 # Algoritmos em JavaScript
 
+## Logo
+
+<div align="left">
+  <img src="img/logo.png" alt="Imagem do Projeto" width="400">
+</div>
+
+## Sumário
+
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Status](#status)
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Como Usar](#como-usar)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Autor](#autor)
+
+## Tecnologias Utilizadas
+
+<div style="display: flex; flex-direction: row;">
+  <div style="display: flex; justify-content: flex-end;">
+    <img src="img/js.png" alt="Logo CSS" width="100"/>
+  </div>
+</div>
+
+## Status
+
+![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+
+## Descrição
+
 Este repositório contém implementações de algoritmos em JavaScript, focados em operações com listas de objetos, especialmente no contexto de livros. A escolha desses algoritmos visa demonstrar diferentes abordagens de ordenação e manipulação de listas.
 
-## Contexto Geral
+## Funcionalidades
 
-A manipulação eficiente de dados é crucial no desenvolvimento de software. Algoritmos de ordenação e junção de listas são ferramentas fundamentais para otimizar o processamento de informações, proporcionando melhor desempenho e organização.
+- `juntaListas`: Função que recebe duas listas como entrada e retorna uma nova lista que é a união das duas, preservando a ordem crescente com base no preço dos elementos.
+- `mergeSort`: Implementação do algoritmo de ordenação Merge Sort, que ordena uma lista de objetos (livros) com base no preço.
+- `quickSort`: Implementação do algoritmo de ordenação QuickSort, que ordena uma lista de objetos (livros) com base no preço.
 
-## Objetivo
+## Como Usar
 
-O objetivo deste repositório é oferecer exemplos práticos e claros de implementações de algoritmos em JavaScript, destacando diferentes estratégias para lidar com listas de objetos. Os códigos aqui presentes abrangem desde a união de listas até técnicas avançadas de ordenação, fornecendo uma base sólida para compreensão e aplicação desses conceitos.
+1. Clone o repositório.
+2. Navegue até a pasta desejada (e.g., uniaoListas, ordenaListas).
+3. Execute o arquivo JavaScript correspondente (e.g., uniaoListas.js, mergeSort.js).
 
-## Pasta uniaoListas
+## Estrutura do Projeto
 
-### uniaoListas.js
+- `uniaoListas`:
+  - `uniaoListas.js`: Contém a função `juntaListas`.
+- `ordenaListas`:
+  - `mergeSort.js`: Implementação do algoritmo de ordenação Merge Sort.
+  - `quickSort.js`: Implementação do algoritmo de ordenação QuickSort.
+  - `encontraMenores.js`: Contém funções auxiliares para encontrar e trocar elementos menores.
 
-Este código contém a função `juntaListas`, que, ao receber duas listas como entrada, retorna uma nova lista que é a união das duas, preservando a ordem crescente com base no preço dos elementos.
+## Autor
 
-## Pasta ordenaListas
-
-### mergeSort.js
-
-Implementação do algoritmo de ordenação Merge Sort. A função `mergeSort` ordena uma lista de objetos (no contexto, livros) com base no preço.
-
-## Pasta ordenaListasBy
-
-### encontraMenores.js
-
-Em resumo, o código implementa funções para encontrar os elementos menores de um array com base em um elemento de pivô e trocar de lugar os elementos do array.
-
-### quickSort.js
-
-Código que implementa o algoritmo de ordenação QuickSort. A função `quickSort` ordena uma lista de objetos (livros) com base no preço.
-
-### encontraMenores.js
-
-Contém duas funções auxiliares: `encontraMenores` e `trocaLugar`. `encontraMenores` encontra elementos menores em relação a um pivô, enquanto `trocaLugar` troca dois elementos de lugar no array.
+Desenvolvido por Diego Franco.
