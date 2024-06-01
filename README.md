@@ -1,6 +1,6 @@
 # Algoritmos em JavaScript
 
-## Este projeto tem como finalidade o estudo e implementação de algoritmos com a linguagem JavaScript.
+### Este projeto tem como finalidade o estudo e implementação de algoritmos com a linguagem JavaScript.
 
 ## Logo
 
