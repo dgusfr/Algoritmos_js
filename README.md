@@ -1,8 +1,10 @@
 # Algoritmos em JavaScript
 
+## Este projeto tem como finalidade o estudo e implementação de algoritmos com a linguagem JavaScript.
+
 ## Logo
 
-<div align="left">
+<div align="center">
   <img src="img/logo.png" alt="Imagem do Projeto" width="400">
 </div>
 
